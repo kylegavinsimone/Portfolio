@@ -3,8 +3,8 @@ h1 {
 }
 
 header {
-  width: 100%;
-  border: 10px solid darkblue;
-  background-color: lightblue;
+  flex: 1 0 200px;
+  border-style: solid;
+  border-color: dark blue;
+  background: light blue;
 }
-
