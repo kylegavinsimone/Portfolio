@@ -1,5 +1,5 @@
 header-links {
-  text-align: left;
+  text-align: right;
 }
 
 my-div {
@@ -12,6 +12,14 @@ my-header {
   border-color: dark blue;
   background: light blue;
 }
+
+headshot {
+    flex-direction: row-reverse;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+
 footer-links {
   text-align: left;
 }
@@ -138,8 +146,7 @@ a {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   padding: 0px 0px 5px 0px;
 }
-.container > header h1 span {
-}
+
 .container > header h2,
 p.info {
   font-size: 16px;
