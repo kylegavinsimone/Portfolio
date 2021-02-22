@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+  }
+  
+  header {
+    flex: 1 0 200px;
+    border-style: solid;
+    border-color: dark blue;
+    background: light blue;
+  }
+  body {background-color: goldenrod;}
+  
