@@ -1,5 +1,7 @@
 header-links {
   text-align: right;
+  flex-direction: row;
+  justify-content: right;
 }
 
 my-div {
@@ -12,13 +14,6 @@ my-header {
   border-color: dark blue;
   background: light blue;
 }
-
-headshot {
-    flex-direction: row-reverse;
-    max-height: 50%;
-    max-width: 50%;
-}
-
 
 footer-links {
   text-align: left;
@@ -180,7 +175,7 @@ p.info {
   background-repeat: none;
   opacity: 0;
   z-index: 0;
-  -webkit-backface-visibility: hidden;
+
   -webkit-animation: imageAnimation 36s linear infinite 0s;
   -moz-animation: imageAnimation 36s linear infinite 0s;
   -o-animation: imageAnimation 36s linear infinite 0s;
